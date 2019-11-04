@@ -5,6 +5,8 @@
 export const environment = {
   production: false,
   rest_api_url: 'http://localhost:8080/api',
+  // spring boot server on GCP
+//  rest_api_url: 'http://35.202.205.248:8080/api',
   auth_url: 'https://easycode-test-auth-server.herokuapp.com'
 };
 

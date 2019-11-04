@@ -1,3 +1,6 @@
+// This is pretty simple js server to run angular bundle on somewhere we have node.js 
+// to run type in shell "node app.js"
+
 const http = require('http');
 const path = require('path');
 const express = require('express');
@@ -15,4 +18,4 @@ const port = process.env.PORT || '3000';
 app.set('port', port);
 
 const server = http.createServer(app);
-server.listen(port, () => console.log('Server is running'));
+server.listen(port, () => console.log('Server is running. Port : ', port));
