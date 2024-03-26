@@ -22,7 +22,7 @@
     "@angular/platform-browser-dynamic": "^6.1.0",
     "@angular/router": "^6.1.0",
     "core-js": "2.5.4",
-    "express": "4.16.3",
+    "express": "4.19.2",
     "ngx-spinner": "6.1.2",
     "ngx-toastr": "9.0.2",
     "rxjs": "6.0.0",
